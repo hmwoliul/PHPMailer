@@ -2506,7 +2506,7 @@ class PHPMailer
         }
 
         if ('mail' !== $this->Mailer) {
-//            $result .= static::$LE;
+            $result .= static::$LE;
         }
 
         return $result;
